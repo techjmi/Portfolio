@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1120px) {
+   
+   .pic{
+      display: none;
+   }
+   .Projectcontainer{
+      margin: 50px 8px;
+   }
+   .devinfo{
+      font-size: 10px;
+      
+   }
+   .buttons{
+      font-size: 5px;
+   }
+}

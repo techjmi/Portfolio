@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Qwitcher+Grypen&family=Source+Code+Pro:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(photo-1616004667892-d348f7349d39.jpg);
+    background-size: cover;
+}
+.slidebar{
+    background-color: rgb(236, 223, 223);
+    /* width: 15vw; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;  
+    /* so that both will indndnt of eachother means slidebar and infocontainer */
+}
+.slidebar nav{
+    padding: 30px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: rgba(4, 0, 0, 0.877);
+}
+.main{
+    /* background-color: yellow; */
+    /* background-image: url(photo-1616004667892-d348f7349d39.jpg); */
+    width: 85vw;
+    padding: 23px;
+    color: white;
+background-size: cover;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    height: 58vh;
+    width: 80vw;
+    margin: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    /* now all the font-size inside this dev will change acc to 16px */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic img{
+    height: 58vh;
+    width: 50vh;
+}
+.hello{
+    font-size: 2em
+
+}
+.name{
+    font-size: 2.5empx;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 2empx;
+
+}
+.moreabout{
+    font-size: 1empx;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 5px 10px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(83, 98, 237, 0.893);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: black;
+    color: azure;
+}
+.contactform{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 34px;
+    padding-top: 144px;
+    margin: 0 88px;
+
+}
+.contactform a{
+    text-decoration: none;
+}
+.contactform h3{
+font-family: 'Fira Code', monospace;
+text-align: center;
+}
+.contactform h4{
+    margin-top: 15px;
+}
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+
+}
+#emailHelp{
+    font-size: 12px;
+    color: rgba(34, 15, 5, 0.947);
+}
+.Projectcontainer h1{
+    margin: 12px;
+    text-align: center;
+    
+    
+}
+.Projectitem h2{
+    margin: 12px;
+    text-align: center;
+    font-family: 'Fira Sans','sans-serif';
+}
+.Projectitem p{
+    margin: 10px 30px;
+}
+.Projectitem .btn-sm{
+    margin: 10px 300px;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+
+}
+p{
+   
+font-family: 'Source Code Pro', monospace;
+}
+.btn-sm{
+    font-size: 13px;
+    padding: 7px 13px;
+    margin: 8px 0;
+    /* padding: 5px 10px; */
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(83, 98, 237, 0.893);
+    
+    cursor: pointer;
+}
+.intro h2{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px 30px;
+}
+.skillconatiner .skillitem{
+    padding: 12px;
+    margin: 10px 30px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+}
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: rgb(184, 163, 163);
+    border-radius: 2px solid black;
+}
+.advance{
+    /* assuming 90% */
+    width: 265px;
+}
+.intermidate{
+    /* assuming 70% */
+    width: 206px;
+}
+.beginner{
+    /* assuming 40% to 60% */
+    width: 132px;
+}
